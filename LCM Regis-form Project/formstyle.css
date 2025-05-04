@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "poppins" sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    background-color: rgb(3, 47, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main-form {
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background: #f0e76a;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.main-form header {
+    font-size: 2rem;
+    color: rgb(3, 47, 97);
+    text-align: center;
+    font-weight: 1000;
+}
+
+.main-form .allstyle {
+    margin-top: 30px;
+}
+
+.allstyle .input-space input {
+    position: relative;
+    height: 35px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: rgb(12, 12, 12);
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+}
+
+.allstyle .column {
+    display: flex;
+    column-gap: 15px;
+}
+
+@media screen and (max-width: 500px) {
+    .allstyle .column {
+        flex-wrap: wrap;
+    }
+} 
+
+.allstyle button {
+    background-color: rgb(3, 47, 97);
+    border-radius: 8px;
+    position: relative;
+    height: 35px;
+    outline: none;
+    font-size: 1rem;
+    color: rgb(199, 170, 8);
+}
+
+.allstyle label {
+    font-size: 1.2rem;
+}
+
+.column .input-space p {
+    font-size: 1.2rem;
+}
